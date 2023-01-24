@@ -39,8 +39,8 @@ export default () => {
                     {data.map((image, index) => {
                         return (
                             <>
-                                <div className='image0' key={index} onClick={()=>navigate('/campaign',{state:image})}>
-                                    <div>
+                                <div className='image0' onClick={()=>navigate('/campaign',{state:image})}>
+                                    <div key={index}>
                                         <img className='image1' src={image.ImageUrl} />
                                         <div className='image2' style={{ backgroundColor: image.PromotionCardColor }}>
                                             <img className='image3' src={image.BrandIconUrl} />
