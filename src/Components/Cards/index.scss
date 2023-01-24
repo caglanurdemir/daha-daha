@@ -1,0 +1,32 @@
+.carousel-images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 365px;
+    border-radius: 20px;
+    border: 3px solid #F4F6F5;
+    background-color: #fff;
+    background-image: url('../../SVGs/Rectangle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-image {
+    display: flex;
+    height: 378px;
+    width: 300px;
+    background-image: url('../../SVGs/Rectangle.svg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+// .carousel.carousel-slider {
+//     height: 100% !important;
+// }
+.slider {
+    height: 100% !important;
+}
+
+.image1 {
+    border-radius: 20px;
+}
