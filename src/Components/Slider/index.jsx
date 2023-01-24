@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './index.scss'
-import FirsatBul from '../../SVGs/FirsatBul'
+import FirsatBul from '../../SVGs/FirsatBul.svg'
 
 export default () => {
     const [data, setData] = useState(null)
@@ -31,9 +31,9 @@ export default () => {
                             <p className='item-name'>Firsat Bul</p>
                         </div>
                     </div>
-                    {data.map((item) => {
+                    {data.map((item, index) => {
                         return (
-                            <div className='item-container'>
+                            <div className='item-container' key={index}>
                                 <div className='item'>
                                     <img className='item-img' src={item.IconUrl} />
                                     <p className='item-name'>{item.Name} </p>
