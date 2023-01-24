@@ -1,0 +1,94 @@
+.detail-page-container{
+    overflow: auto;
+    margin:-40px -10px 0 -10px;
+    height: calc(100% + 60px);
+}
+
+.dpc-image{
+    position: relative;
+    height: auto;
+}
+
+.dpc-image-tag{
+    position: relative;
+    height: auto;
+    width: 100%;
+    height: 45%;
+    border-radius:10px 10px 10px 100px;
+}
+
+.dpc-circle{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border:5px solid #fff;
+    bottom: 0;
+    left: 0;
+}
+
+.dpc-last-day{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 99px;
+    height: 33px;
+    right: 5px;
+    bottom: 10px;
+    background-color: #1D1E1C;
+    border-radius: 12%;
+    p{
+        font-size: 14px;
+        font-family: os-reg;
+        color:#fff;
+        font-weight: 500;
+        margin: 0;
+    }
+}
+
+.dpc-title{
+    margin: 20px 0 0 0;
+    font-family: os-reg;
+    font-size: 18px;
+    font-weight: 600;
+    color:#1D1E1C;
+    text-align: center;
+}
+
+.dpc-button{
+    display:flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 56px;
+    left:5%;
+    bottom: 5%;
+    background-color: #F40000;
+    border-radius: 35px;
+}
+
+.dpc-button-text{
+    font-family: os-reg;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.back-button{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    top:6%;
+    left: 5%;
+    background-color: #1D1E1C;
+    border-radius: 50%;
+    opacity: 0.7;
+}
