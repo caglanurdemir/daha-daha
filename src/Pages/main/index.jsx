@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from '../../Components/Header'
 
 export default () => {
   return (
-    <div>
-      main page
+    <div className='main-page'>
+      <Header />
     </div>
   )
 }
