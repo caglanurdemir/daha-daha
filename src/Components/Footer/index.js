@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './index.scss'
 import Kesfet from '../../SVGs/Kesfet'
-import Portal from '../../SVGs/Portal'
+import Portal from '../../SVGs/Portal.svg'
 import Katildiklarim from '../../SVGs/Katildiklarim'
 
 export default () => {
@@ -11,9 +11,9 @@ export default () => {
                 <Kesfet />
                 <p className='footer-text'>KEŞFET</p>
             </div>
-            {/* <div className='footer-svg' >
-                <Portal />
-            </div> */}
+            <div className='footer-svg' >
+                <img src={Portal} />
+            </div>
             <div className='footer-svg' >
                 <Katildiklarim />
                 <p className='footer-text'>DAHA CÜZDAN</p>
