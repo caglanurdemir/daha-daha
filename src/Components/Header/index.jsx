@@ -19,6 +19,7 @@ export default () => {
                     style={{ backgroundColor: '#F40000', cursor: 'pointer' }}
                     onClick={() => setIsLogin(false)}>
                     <Profile />
+                    <div className='profile-isLogin' />
                 </div>
                 :
                 <div className='profile'
