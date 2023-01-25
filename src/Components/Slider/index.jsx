@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import './index.scss'
 import FirsatBul from '../../SVGs/FirsatBul.svg'
 
-export default () => {
+const Slider = () => {
     const [data, setData] = useState(null)
 
     useEffect(() => {
@@ -27,7 +27,7 @@ export default () => {
                 <div className='slider'>
                     <div className='item-container'>
                         <div className='item'>
-                            <img className='item-img' src={FirsatBul} />
+                            <img className='item-img' src={FirsatBul} alt="Firsati Bul"/>
                             <p className='item-name'>Firsat Bul</p>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ export default () => {
                         return (
                             <div className='item-container' key={index}>
                                 <div className='item'>
-                                    <img className='item-img' src={item.IconUrl} />
+                                    <img className='item-img' src={item.IconUrl} alt={item.Name} />
                                     <p className='item-name'>{item.Name} </p>
                                 </div>
                             </div>
@@ -48,3 +48,5 @@ export default () => {
     )
 
 }
+
+export default Slider
